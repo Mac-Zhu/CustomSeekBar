@@ -23,4 +23,15 @@
         android:progressDrawable="@drawable/custom_track"
         android:thumb="@drawable/custom_thumb" />
 
+    <com.mac.seeker.LevelSeekBar
+        android:id="@+id/pb_speed"
+        android:layout_marginHorizontal="14dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:speedLevel="5"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

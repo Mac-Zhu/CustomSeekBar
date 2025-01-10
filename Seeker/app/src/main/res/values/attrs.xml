@@ -13,4 +13,7 @@
         <attr name="heightInt" format="integer"/>
         <attr name="showThumb" format="boolean"/>
     </declare-styleable>
+    <declare-styleable name="SpeedLevelSeekBar">
+        <attr name="speedLevel" format="integer" />
+    </declare-styleable>
 </resources>
